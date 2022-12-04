@@ -7,9 +7,7 @@ public class Animal {
     public String size;
     public String color;
 
-    public static void main(String[] args) {
 
-    }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
