@@ -10,6 +10,7 @@ public class Anagram {
         str1=str1.toLowerCase();
         str2=str2.toLowerCase();
 
+
         if (str1.length() == str2.length()) {
             for (int i = 0; i < str1.length(); i++) {
                 str2 = str2.replaceFirst("" + str1.charAt(i), "");
