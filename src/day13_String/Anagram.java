@@ -2,6 +2,9 @@ package day13_String;
 
 public class Anagram {
     public static void main(String[] args) {
+
+    }
+    public static void main(String[] args) {
         String str1="Listen";
         String str2="silent";
         String str3 = str2;
