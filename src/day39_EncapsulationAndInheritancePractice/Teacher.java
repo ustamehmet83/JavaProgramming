@@ -8,18 +8,8 @@ public class Teacher extends Employee {
 
     @Override
     public void work() {
-        System.out.println(getAge()+ " is working");
+        super.work();
     }
 
-    @Override
-    public String toString() {
-        return  "Teacher{" +
-                "name=" + getName() +'\''+
-                "age=" + getAge()+'\''+
-                "gender=" + getGender()+'\''+
-                "employeeId=" + getEmployeeId()+'\''+
-                ", jobTitle='" + getJobTitle()+ '\'' +
-                ", salary=" + getSalary() +
-                '}';
-    }
+
 }
