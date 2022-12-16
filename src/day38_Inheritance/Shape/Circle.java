@@ -1,7 +1,6 @@
 package day38_Inheritance.Shape;
 
 public class Circle extends Shape{
-    public String name;
     private double radius;
     public static double pi=3.14;
 
@@ -40,8 +39,9 @@ public class Circle extends Shape{
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +'\'' +
-                "Area=" + area() +'\'' +
-                "Perimeter=" + perimeter() +'\'' +
+                "pi=" + pi +'\'' +
+                ", Area=" + area() +'\'' +
+                ", Perimeter=" + perimeter() +'\'' +
                 '}';
     }
 }

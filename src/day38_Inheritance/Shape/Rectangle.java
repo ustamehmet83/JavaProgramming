@@ -1,12 +1,12 @@
 package day38_Inheritance.Shape;
 
-public class Rectangular extends Shape {
+public class Rectangle extends Shape {
     private double width;
     private double length;
 
 
-    public Rectangular(String name) {
-        super("Rectangular");
+    public Rectangle(double width,double length) {
+        super("Rectangle");
         setWidth(width);
         setLength(length);
     }
@@ -47,9 +47,8 @@ public class Rectangular extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangular{" +
-                "name='" + "Rectangular" + '\'' +
-                ", width=" + width +'\'' +
+        return "Rectangle{" +
+                "width=" + width +'\'' +
                 ", length=" + length +'\'' +
                 ", Area=" + area() +'\'' +
                 ", Perimeter=" + perimeter() +'\'' +
