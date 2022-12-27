@@ -6,7 +6,7 @@ public class MorningWorkOut {
         System.out.println("-----------------Push up started-------------------");
 
 
-        for (int i = 1; i <30 ; i++) {
+        for (int i = 1; i <=30 ; i++) {
             System.out.print("\rPush up "+i);
             sleep(1.5);
         }
@@ -15,13 +15,9 @@ public class MorningWorkOut {
 
         System.out.println("--------------Pull up started-----------------");
 
-        for (int i = 1; i <20 ; i++) {
+        for (int i = 1; i <=20 ; i++) {
             System.out.print("\rPush up "+i);
-            try {
-                Thread.sleep(150);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            sleep(1.5);
         }
         System.out.println("\n---------------Pull up completed-------------------");
     }
