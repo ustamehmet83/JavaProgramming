@@ -1,16 +1,24 @@
 package day42_Exceptions;
 
+import java.util.NoSuchElementException;
+
 public class ThrowKeyword2 {
-    public static void main(String[] args) throws ArithmeticException{
 
-        System.out.println("Test started");
+    public static void main(String[] args) {
 
-        System.out.println(8/0);
+       throw new NoSuchElementException(" There is no such element as break");
 
-        System.out.println("Test completed");
+        //throw new InterruptedException();
+
+
+        //System.out.println("Hello world");
+
+
 
 
 
 
     }
+
+
 }
