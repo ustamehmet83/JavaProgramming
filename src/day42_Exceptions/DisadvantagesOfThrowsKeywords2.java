@@ -12,11 +12,6 @@ public class DisadvantagesOfThrowsKeywords2 {
             e.printStackTrace();
         }
     }
-
-
-
-
-
     public static void method1() throws FileNotFoundException {
 
         new FileInputStream("");
@@ -36,11 +31,4 @@ public class DisadvantagesOfThrowsKeywords2 {
         method3();
 
     }
-
-
-
-
-
-
-
 }
