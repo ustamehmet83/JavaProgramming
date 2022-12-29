@@ -7,6 +7,7 @@ public class Circle extends Shape{
     public Circle(double radius) {
         super("Circle");
         setRadius(radius);
+
     }
 
     public double getRadius() {
