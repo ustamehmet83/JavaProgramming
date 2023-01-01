@@ -1,4 +1,6 @@
-package day44_Abstraction;
+package day44_Abstraction.animalTask;
+
+import day44_Abstraction.animalTask.Animal;
 
 public final class Tiger extends Animal {
     public Tiger(String name, String breed, char gender, int age, String size, String color) {
@@ -7,13 +9,8 @@ public final class Tiger extends Animal {
 
     @Override
     public void eat() {
-        System.out.println(getName()+" is eating meat");
+        System.out.println(getName() + " is eating meat");
     }
-
-
-
-
-
 
 
 }
