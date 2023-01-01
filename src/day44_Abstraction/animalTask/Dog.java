@@ -1,8 +1,7 @@
 package day44_Abstraction.animalTask;
 
-import day44_Abstraction.animalTask.Animal;
 
-public final class Dog extends Animal {
+public final class Dog extends Animal implements Playable {
 
 
     public Dog(String name, String breed, char gender, int age, String size, String color) {
@@ -17,5 +16,10 @@ public final class Dog extends Animal {
     public void eat() {
         System.out.println(getName() + " eats Pizza");
 
+    }
+
+    @Override
+    public void play() {
+        System.out.println(getName()+" is playing with base ball");
     }
 }
