@@ -19,8 +19,6 @@ public interface PropertiesOfInterface {
     }
      */
 
-
-
     public static void method2(){
         System.out.println("Static method");
     }
@@ -30,9 +28,11 @@ public interface PropertiesOfInterface {
     public default void drink(){
         System.out.println("Default method");
     }
+}
+class Test implements PropertiesOfInterface{
 
+    @Override
+    public void method() {
 
-
-
-
+    }
 }
