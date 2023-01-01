@@ -6,6 +6,7 @@ public abstract class Employee extends Person {
     private String jobTitle;
     private double salary;
 
+
     public Employee(String name, int age, char gender, int id,String jobTitle,double salary) {
         super(name, age, gender);
         if(id<=0){
@@ -38,6 +39,7 @@ public abstract class Employee extends Person {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
 
     @Override
     public String toString() {
