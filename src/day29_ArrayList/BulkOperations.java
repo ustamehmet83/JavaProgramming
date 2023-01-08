@@ -20,7 +20,7 @@ public class BulkOperations {
     // (if the elements that we want to remove are known)
     //retainAll(): when we want to remain multiple elements
     // (if the elements that we want to remain are know)
-    //removeIf():when we remove under a condition.
+
 
     public static void main(String[] args) {
         ArrayList<Integer> list=new ArrayList<>();

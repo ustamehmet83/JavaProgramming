@@ -4,4 +4,5 @@ public interface Volume {
 
     boolean hasVolume=true;
     double volume();
+
 }

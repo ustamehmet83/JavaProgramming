@@ -16,7 +16,6 @@ public class DriverObjects {
         chromeDriver.executeScript("Script");
 
         System.out.println("--------------------------------------");
-
         EdgeDriver edgeDriver= new EdgeDriver("Edge");
 
         edgeDriver.get("https://www.gogle.com");
